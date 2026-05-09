@@ -30,7 +30,6 @@ switch upper(structure)
         H(9,9) = O.d0;
 
     case {'FCC','BCC'}
-        % cubic symmetry -> all d degenerate
         H(2,2) = O.p;
         H(3,3) = O.p;
         H(4,4) = O.p;
