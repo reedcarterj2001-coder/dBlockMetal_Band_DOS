@@ -115,7 +115,8 @@ title(str1)
 ylim(ylimVals);
 xlim auto
 
-outdir = ; % Your desried figure directory here, put ' ' to leave blank
+outdir = ; % Your desried figure directory here. 
+           % Put ' ' to save files to the code directory.
 filename = fullfile(outdir,[crystal.name,'_', ...
                             crystal.structure,'_BandPlot_DOSPlot']);
 exportgraphics(gcf, filename + ".tif",'Resolution', 300);
